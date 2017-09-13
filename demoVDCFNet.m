@@ -1,5 +1,5 @@
 %% VDCFNet Demo
-% Demonstrates VDCFNet on theJumping sequence of the OTB.
+% Demonstrates VDCFNet on the Jumping sequence of the OTB.
 % The reported speed(50 fps) requests GTX 1070 GPU Device 
 % and set "param.visual = false" please.
 clear; close all; clc;
