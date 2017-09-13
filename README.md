@@ -18,8 +18,12 @@ Requirements: software
 Tracking
 
   git clone --depth=1 https://github.com/ly820332082/VDCFNet.git
+  
   The file demoVDCFNet.m is used to test our algorithm.
 
-  To verify OTB performance, you can copy VDCFNet.m into OTB toolkit.
+  To verify OTB performance, you can copy demoVDCFNet.m, VDCFNet.m and VDCFNet-2017-7-20.mat into OTB toolkit.
 
   
+Training
+  
+  We will upload the training code later.
