@@ -2,7 +2,7 @@
 
 《VDCFNet: Visual tracking via Vector Convolutional Network and Discriminant Correlation Filters》
   
-    by Yuan Liu, Xiubao Sui, Yicheng Sun, Yujing Zhou
+    by Yuan Liu, Xiubao Sui, Xiaodong Kuang, Yicheng Sun, Yujing Zhou
 
 Requirements: software
 
