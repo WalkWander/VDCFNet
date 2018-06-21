@@ -108,7 +108,7 @@ end
 function [state, location] = VDCFNet_update(state, I, frame,result,varargin)
 if state.gpu, I = gpuArray(I);end
 state.padding1 = 1.5;
-%% 1st search
+%% Coarse search
 window_sz1 = state.target_sz*(1+1.5);
 patch_crop1 = imcrop_multiscale(I, state.pos, window_sz1, state.net_input_size, state.yyxx);
 search1 = bsxfun(@minus, patch_crop1, state.net_average_image);
@@ -131,7 +131,7 @@ state.pos1 = state.pos + [v_delta , h_delta ].*window_sz1'./state.net_input_size
 if frame==2
    state.Peak = Peak;
 end
-%% 2nd search
+%% Fine search
 window_sz = bsxfun(@times, state.target_sz, state.scale_factor)*(1+state.padding1);
 if Peak > state.Peak/7
     patch_crop = imcrop_multiscale(I, state.pos1, window_sz, state.net_input_size, state.yyxx);
