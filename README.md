@@ -21,4 +21,4 @@ Tracking
 
     The file demoVDCFNet.m is used to test our algorithm.
 
-    To verify OTB performance, you can copy demoVDCFNet.m, VDCFNet.m and VDCFNet-2018-06-01.mat into OTB toolkit.
+    To verify OTB performance, you can copy demoVDCFNet.m, VDCFNet.m and VDCFNet-2018-6-01.mat into OTB toolkit.
