@@ -1,8 +1,9 @@
 # VDCFNet
 
-《VDCFNet: Visual tracking via Vector Convolutional Network and Discriminant Correlation Filters》
+《Object tracking based on Vector Convolutional Network and Discriminant Correlation Filters
+》
   
-    by Yuan Liu, Xiubao Sui, Xiaodong Kuang, Yujing Zhou, Guohua Gu
+    by Yuan Liu, Xiubao Sui*, Xiaodong Kuang, Chengwei Liu, Guohua Gu and Qian Chen
 
 Requirements: software
 
